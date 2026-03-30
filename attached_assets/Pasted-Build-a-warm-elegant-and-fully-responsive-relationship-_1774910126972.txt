@@ -1,0 +1,52 @@
+Build a warm, elegant, and fully responsive relationship website that can evolve over time. The site should be designed as a flexible personal space for romantic moments, celebrations, and future additions. Make it easy to add new sections later without redesigning the whole site.
+
+Core goals:
+- Create a beautiful, emotionally expressive website with a romantic but modern aesthetic.
+- The site should work for any occasion: love letters, anniversaries, birthdays, memories, photos, notes, timelines, playlists, and future surprises.
+- Keep the structure modular so I can incrementally add more content over time.
+- Start with a dedicated love letter section as the main feature.
+
+Design direction:
+- Soft, intimate color palette with tasteful gradients, warm neutrals, blush, rose, cream, or deep evening tones.
+- Elegant typography with strong visual hierarchy.
+- Smooth animations and gentle transitions, but nothing flashy.
+- Mobile-first and fully responsive.
+- Feels personal, dreamy, and polished.
+
+Homepage layout:
+- Hero section with a romantic headline and short subtitle.
+- Featured love letter card/section with readable, beautiful formatting.
+- Sections that can later hold:
+  - memory timeline
+  - photo gallery
+  - reasons I love you
+  - shared moments
+  - notes / letters archive
+  - special dates / countdowns
+  - future surprises or gifts
+- Add a simple navigation menu that can expand as new sections are added.
+
+Love letter section:
+- Display the letter in a beautiful readable format, like a premium card or page.
+- Include subtle decorative details that make it feel special.
+- Allow for long text, line breaks, and future editing.
+- Make it feel heartfelt, not generic.
+
+Scalability requirements:
+- Build the site with reusable components and clean structure.
+- Organize code so new pages/sections can be added easily later.
+- Use placeholder content and modular containers for future features.
+- Avoid hardcoding design in a way that makes later expansion difficult.
+
+Functionality:
+- Smooth scroll between sections.
+- Clean responsive navigation.
+- Optional dark/light mood toggle if it fits the design.
+- Basic animations for cards and section entrance.
+- Use placeholder data where needed so I can replace content later.
+
+Overall vibe:
+- Romantic, timeless, thoughtful, and personal.
+- Should feel like a digital keepsake that can grow into a full relationship website over time.
+
+Implement the site now with the love letter section included and structure it so I can keep adding features later.

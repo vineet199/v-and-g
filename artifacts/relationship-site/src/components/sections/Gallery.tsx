@@ -1,23 +1,25 @@
 import { motion } from "framer-motion";
 
+const baseUrl = import.meta.env.BASE_URL;
+
 const memories = [
   {
     id: 1,
-    src: "/images/memory-1.png",
+    src: `${baseUrl}images/memory-1.png`,
     alt: "Holding hands",
     caption: "Quiet mornings",
     aspect: "aspect-square md:aspect-[3/4]"
   },
   {
     id: 2,
-    src: "/images/memory-2.png",
+    src: `${baseUrl}images/memory-2.png`,
     alt: "Journal",
     caption: "Words unspoken",
     aspect: "aspect-[4/3] md:aspect-square"
   },
   {
     id: 3,
-    src: "/images/memory-3.png",
+    src: `${baseUrl}images/memory-3.png`,
     alt: "Silhouette sunset",
     caption: "Golden hour walks",
     aspect: "aspect-square md:aspect-[4/5]"

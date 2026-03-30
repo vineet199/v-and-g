@@ -1,6 +1,8 @@
 import { motion } from "framer-motion";
 
 export function Hero() {
+  const heroImageSrc = `${import.meta.env.BASE_URL}images/hero-bg.png`;
+
   return (
     <section id="hero" className="relative min-h-screen flex items-center justify-center overflow-hidden bg-background">
       {/* Background Image with overlay */}
@@ -8,7 +10,7 @@ export function Hero() {
         <div className="absolute inset-0 bg-background/40 z-10"></div>
         <div className="absolute inset-0 bg-gradient-to-b from-transparent via-background/20 to-background z-10"></div>
         <img 
-          src="/images/hero-bg.png" 
+          src={heroImageSrc}
           alt="Warm candlelight" 
           className="w-full h-full object-cover opacity-70"
           onError={(e) => {
@@ -41,7 +43,7 @@ export function Hero() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 1, delay: 1.5 }}
-          className="absolute bottom-12 left-1/2 -translate-x-1/2 flex flex-col items-center gap-4"
+          className="absolute -bottom-25 left-1/2 -translate-x-1/2 flex flex-col items-center gap-4"
         >
           <span className="text-xs tracking-widest text-muted-foreground uppercase">Scroll softly</span>
           <div className="w-[1px] h-12 bg-primary/30 relative overflow-hidden">

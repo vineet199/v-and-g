@@ -2,7 +2,6 @@ import { Navigation } from "@/components/Navigation";
 import { Hero } from "@/components/sections/Hero";
 import { LoveLetter } from "@/components/sections/LoveLetter";
 import { Timeline } from "@/components/sections/Timeline";
-import { Gallery } from "@/components/sections/Gallery";
 import { Reasons } from "@/components/sections/Reasons";
 import { SpecialDates } from "@/components/sections/SpecialDates";
 
@@ -16,7 +15,6 @@ export default function Home() {
           <LoveLetter />
           <Timeline />
           <Reasons />
-          <Gallery />
           <SpecialDates />
         </div>
       </main>

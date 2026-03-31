@@ -59,6 +59,8 @@ export function Gallery() {
                 <img 
                   src={memory.src} 
                   alt={memory.alt}
+                  loading="lazy"
+                  decoding="async"
                   className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 opacity-90 group-hover:opacity-100 mix-blend-multiply dark:mix-blend-normal"
                   onError={(e) => {
                     e.currentTarget.style.display = 'none';

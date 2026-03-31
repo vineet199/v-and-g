@@ -3,23 +3,23 @@ import { motion } from "framer-motion";
 const reasons = [
   {
     id: "01",
-    title: "How you listen",
-    desc: "You don't just hear words; you pay attention to the spaces between them. You remember the small things I mention in passing."
+    title: "Your simplicity",
+    desc: "You don't just hear words; you pay attention to the spaces between them, something I generally miss on. You remember the small things I mention in passing."
   },
   {
     id: "02",
-    title: "Your laugh",
-    desc: "That specific laugh you do when you genuinely find something funny, where your eyes crinkle. It's my favorite sound in the world."
+    title: "Your gentleness",
+    desc: "You actually care for me deeply and allow me to be who I am for the most part."
   },
   {
     id: "03",
-    title: "The calm",
-    desc: "How everything feels easier when you're around. You bring a quiet peace to chaotic days, just by existing in the same room."
+    title: "The understanding",
+    desc: "No matter how stupid my thoughts are, you bring a quiet peace to chaotic days, just by existing in the same room."
   },
   {
     id: "04",
-    title: "Your passion",
-    desc: "The way your eyes light up when you talk about something you love. It's intoxicating to watch you be in your element."
+    title: "Your nose",
+    desc: "It is what it is"
   }
 ];
 

@@ -12,11 +12,13 @@ export default function Home() {
       <Navigation />
       <main>
         <Hero />
-        <LoveLetter />
-        <Timeline />
-        <Reasons />
-        <Gallery />
-        <SpecialDates />
+        <div className="deferred-sections">
+          <LoveLetter />
+          <Timeline />
+          <Reasons />
+          <Gallery />
+          <SpecialDates />
+        </div>
       </main>
       
       <footer className="py-10 md:py-16 text-center border-t border-border/40 bg-card/30">

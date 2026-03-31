@@ -1,9 +1,10 @@
 import { motion } from "framer-motion";
 
 const dates = [
-  { label: "The Beginning", value: "Oct 14" },
-  { label: "First Trip", value: "Dec 02" },
-  { label: "Our Anniversary", value: "Jun 18" }
+  { label: "The Beginning", value: "Mar 22 2025" },
+  { label: "I love you", value: "Sept 02 2025" },
+  { label: "First Trip", value: "Mar 19 2026" },
+  
 ];
 
 export function SpecialDates() {

@@ -12,6 +12,9 @@ export function Hero() {
         <img 
           src={heroImageSrc}
           alt="Warm candlelight" 
+          fetchPriority="high"
+          loading="eager"
+          decoding="async"
           className="w-full h-full object-cover opacity-70"
           onError={(e) => {
             // Fallback to a warm gradient if image is not ready

@@ -2,14 +2,14 @@ import { motion } from "framer-motion";
 
 const milestones = [
   {
-    date: "The First Time",
-    title: "Coffee & Rain",
-    description: "It was pouring outside, but neither of us wanted to leave the cafe. Three hours felt like three minutes."
+    date: "The Fun Regular",
+    title: "Lemon Tea & Pani puri",
+    description: "Lemon tea wakes you up, Pani puri sorts me out. Even if you take a few of them off my plate."
   },
   {
-    date: "The Realization",
+    date: "Raasta Cafe",
     title: "Late Night Drives",
-    description: "Listening to that one playlist on loop, windows down, knowing something fundamental had shifted."
+    description: "Longest drive we have been on that did not feel long."
   },
   {
     date: "The Commitment",
@@ -30,7 +30,7 @@ export function Timeline() {
           className="text-center mb-14 md:mb-24"
         >
           <span className="text-xs tracking-widest uppercase text-primary mb-4 block">Chapters</span>
-          <h2 className="font-serif text-3xl md:text-5xl text-foreground">Our Timeline</h2>
+          <h2 className="font-serif text-3xl md:text-5xl text-foreground">Keystones</h2>
         </motion.div>
 
         <div className="relative">
